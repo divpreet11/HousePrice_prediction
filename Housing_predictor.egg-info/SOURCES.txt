@@ -1,0 +1,7 @@
+setup.py
+Housing_predictor.egg-info/PKG-INFO
+Housing_predictor.egg-info/SOURCES.txt
+Housing_predictor.egg-info/dependency_links.txt
+Housing_predictor.egg-info/requires.txt
+Housing_predictor.egg-info/top_level.txt
+housing/__init__.py
