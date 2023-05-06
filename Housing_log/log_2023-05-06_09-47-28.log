@@ -1,0 +1,47 @@
+[2023-05-06 09:47:33,649] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-05-06 09:47:33,650] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2023-05-06 09:47:47,791] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:47:47] "GET / HTTP/1.1" 200 -
+[2023-05-06 09:47:49,174] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:47:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-05-06 09:48:56,249] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:48:56] "GET /artifact HTTP/1.1" 200 -
+[2023-05-06 09:48:58,226] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:48:58] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2023-05-06 09:49:00,266] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:49:00] "GET /artifact/housing/artifact/data_validation HTTP/1.1" 200 -
+[2023-05-06 09:49:01,527] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:49:01] "GET /artifact/housing/artifact/data_validation/2023-05-04-13-40-37 HTTP/1.1" 200 -
+[2023-05-06 09:49:03,303] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:49:03] "GET /artifact/housing/artifact/data_validation/2023-05-04-13-40-37/report.html HTTP/1.1" 200 -
+[2023-05-06 09:49:03,499] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:49:03] "GET /artifact/housing/artifact/data_validation/2023-05-04-13-40-37/report.html HTTP/1.1" 200 -
+[2023-05-06 10:03:20,542] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:03:20] "GET / HTTP/1.1" 200 -
+[2023-05-06 10:03:23,988] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:03:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-05-06 10:03:35,755] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:03:35] "GET /artifact HTTP/1.1" 200 -
+[2023-05-06 10:03:37,321] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:03:37] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2023-05-06 10:03:40,154] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:03:40] "GET /artifact/housing/artifact/model_trainer HTTP/1.1" 200 -
+[2023-05-06 10:03:43,477] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:03:43] "GET /artifact/housing/artifact/model_trainer/2023-05-04-13-40-37 HTTP/1.1" 200 -
+[2023-05-06 10:03:44,847] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:03:44] "GET /artifact/housing/artifact/model_trainer/2023-05-04-13-40-37/trained_model HTTP/1.1" 200 -
+[2023-05-06 10:03:48,230] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:03:48] "GET /artifact/housing/artifact/model_trainer/2023-05-04-13-40-37/trained_model/model.pkl HTTP/1.1" 200 -
+[2023-05-06 10:03:48,291] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:03:48] "GET /artifact/housing/artifact/model_trainer/2023-05-04-13-40-37/trained_model/model.pkl HTTP/1.1" 200 -
+[2023-05-06 10:03:59,775] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:03:59] "GET /artifact/housing/artifact/model_trainer/2023-05-04-13-40-37 HTTP/1.1" 200 -
+[2023-05-06 10:04:00,608] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:04:00] "GET /artifact/housing/artifact/model_trainer HTTP/1.1" 200 -
+[2023-05-06 10:04:01,841] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:04:01] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2023-05-06 10:04:02,824] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:04:02] "GET /artifact HTTP/1.1" 200 -
+[2023-05-06 10:04:08,041] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:04:08] "GET /artifact HTTP/1.1" 200 -
+[2023-05-06 10:04:17,836] root - INFO - req_path: Housing_log
+[2023-05-06 10:04:17,925] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:04:17] "GET /logs HTTP/1.1" 200 -
+[2023-05-06 10:16:19,094] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:16:19] "GET /predict HTTP/1.1" 200 -
+[2023-05-06 10:16:23,804] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:16:23] "GET /update_model_config HTTP/1.1" 200 -
+[2023-05-06 10:16:25,999] root - INFO - Training pipeling config: TrainingPipelineconfig(artifact_dir='C:\\Users\\HP\\OneDrive\\Desktop\\HousePrice_prediction\\housing\\artifact')
+[2023-05-06 10:16:26,027] root - INFO - Pipeline starting.
+[2023-05-06 10:16:26,064] root - INFO - Pipeline experiment: Experiment(experiment_id='7165eda0-41e5-4e7c-be69-564e9b2ccec0', initialization_timestamp='2023-05-06-10-16-25', artifact_time_stamp='2023-05-06-10-16-25', running_status=True, start_time=datetime.datetime(2023, 5, 6, 10, 16, 26, 42378), stop_time=None, execution_time=None, message='Pipeline has been started.', experiment_file_path='C:\\Users\\HP\\OneDrive\\Desktop\\HousePrice_prediction\\housing\\artifact\\experiment\\experiment.csv', accuracy=None, is_model_accepted=None)
+[2023-05-06 10:16:27,011] root - INFO - Downloading file from [https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz] at location [C:\Users\HP\OneDrive\Desktop\HousePrice_prediction\housing\artifact\data_ingestion\2023-05-06-10-16-25\tgz_data\housing.tgz]
+[2023-05-06 10:16:27,278] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:16:27] "GET /train HTTP/1.1" 200 -
+[2023-05-06 10:16:29,002] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:16:29] "GET /update_model_config HTTP/1.1" 200 -
+[2023-05-06 10:16:44,078] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:16:44] "GET /predict HTTP/1.1" 200 -
+[2023-05-06 10:16:45,326] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:16:45] "GET /saved_models HTTP/1.1" 200 -
+[2023-05-06 10:16:46,298] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:16:46] "GET /artifact HTTP/1.1" 200 -
+[2023-05-06 10:17:06,423] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2023-05-06 10:20:01,999] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:20:01] "GET /artifact HTTP/1.1" 200 -
+[2023-05-06 10:20:43,641] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:20:43] "GET / HTTP/1.1" 200 -
+[2023-05-06 10:20:46,527] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:20:46] "GET /artifact HTTP/1.1" 200 -
+[2023-05-06 10:20:48,060] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:20:48] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2023-05-06 10:20:50,204] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:20:50] "GET /artifact/housing/artifact/model_trainer HTTP/1.1" 200 -
+[2023-05-06 10:20:55,886] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 10:20:55] "GET /artifact/housing/artifact/model_trainer/2023-05-04-13-40-37 HTTP/1.1" 200 -

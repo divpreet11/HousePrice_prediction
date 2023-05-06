@@ -1,0 +1,15 @@
+[2023-05-06 09:38:05,941] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-05-06 09:38:05,942] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2023-05-06 09:38:19,198] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:38:19] "GET / HTTP/1.1" 200 -
+[2023-05-06 09:38:19,205] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:38:19] "GET / HTTP/1.1" 200 -
+[2023-05-06 09:38:21,151] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:38:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-05-06 09:38:50,641] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:38:50] "GET /artifact HTTP/1.1" 200 -
+[2023-05-06 09:38:52,115] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:38:52] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2023-05-06 09:38:54,887] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:38:54] "GET /artifact/housing/artifact/data_validation HTTP/1.1" 200 -
+[2023-05-06 09:38:56,224] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:38:56] "GET /artifact/housing/artifact/data_validation/2023-04-24-20-38-07 HTTP/1.1" 200 -
+[2023-05-06 09:38:58,166] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:38:58] "GET /artifact/housing/artifact/data_validation HTTP/1.1" 200 -
+[2023-05-06 09:39:05,081] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:39:05] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2023-05-06 09:39:06,138] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:39:06] "GET /artifact HTTP/1.1" 200 -
+[2023-05-06 09:39:16,125] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:39:16] "GET /artifact/housing/artifact/data_validation HTTP/1.1" 200 -
+[2023-05-06 09:39:17,446] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 09:39:17] "GET /predict HTTP/1.1" 200 -

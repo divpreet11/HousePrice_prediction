@@ -15,7 +15,7 @@ class DataIngestion:
         try:
             self.data_ingestion_config=data_ingestion_config
         except Exception as e:
-            raise Housing_exception(e,sys) from e #from e likhne ka matlab ye hai ki jab hume exception aaiga to usme ye na show ho ki wo isi line se exception raise hua hai wo actual jha se exception raise hua hai wha point kre 
+            raise Housing_exception(e,sys) from e 
         
         
     def download_housing_data(self):

@@ -1,3 +1,5 @@
+LICENSE
+README.md
 setup.py
 Housing_predictor.egg-info/PKG-INFO
 Housing_predictor.egg-info/SOURCES.txt

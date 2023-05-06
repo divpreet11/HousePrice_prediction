@@ -1,0 +1,42 @@
+[2023-05-06 00:43:10,653] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2023-05-06 00:43:10,654] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2023-05-06 00:43:23,127] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:23] "GET / HTTP/1.1" 200 -
+[2023-05-06 00:43:26,244] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:26] "GET /artifact HTTP/1.1" 200 -
+[2023-05-06 00:43:28,900] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:28] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2023-05-06 00:43:30,057] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:30] "GET /artifact/housing/artifact/data_ingestion HTTP/1.1" 200 -
+[2023-05-06 00:43:33,132] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:33] "GET /artifact/housing/artifact/data_ingestion/2023-04-24-20-38-07 HTTP/1.1" 200 -
+[2023-05-06 00:43:34,822] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:34] "GET /artifact/housing/artifact/data_ingestion HTTP/1.1" 200 -
+[2023-05-06 00:43:36,408] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:36] "GET /artifact/housing/artifact/data_ingestion/2023-04-24_20-32-58 HTTP/1.1" 200 -
+[2023-05-06 00:43:38,239] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:38] "GET /artifact/housing/artifact/data_ingestion HTTP/1.1" 200 -
+[2023-05-06 00:43:39,318] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:39] "GET /artifact/housing/artifact/data_ingestion/2023-05-01_20-12-26 HTTP/1.1" 200 -
+[2023-05-06 00:43:40,744] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:40] "GET /artifact/housing/artifact/data_ingestion HTTP/1.1" 200 -
+[2023-05-06 00:43:41,237] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:41] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2023-05-06 00:43:44,981] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:44] "GET /artifact/housing/artifact/data_transformation HTTP/1.1" 200 -
+[2023-05-06 00:43:46,470] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:46] "GET /artifact/housing/artifact/data_transformation/2023-04-24-20-38-07 HTTP/1.1" 200 -
+[2023-05-06 00:43:48,825] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:48] "GET /artifact/housing/artifact/data_transformation/2023-04-24-20-38-07/preprocessed HTTP/1.1" 200 -
+[2023-05-06 00:43:50,153] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:50] "GET /artifact/housing/artifact/data_transformation/2023-04-24-20-38-07 HTTP/1.1" 200 -
+[2023-05-06 00:43:51,421] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:51] "GET /artifact/housing/artifact/data_transformation HTTP/1.1" 200 -
+[2023-05-06 00:43:55,350] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:55] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2023-05-06 00:43:56,710] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:56] "GET /artifact/housing/artifact/data_validation HTTP/1.1" 200 -
+[2023-05-06 00:43:58,265] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:43:58] "GET /artifact/housing/artifact/data_validation/2023-04-24-20-38-07 HTTP/1.1" 200 -
+[2023-05-06 00:44:01,321] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:44:01] "GET /artifact/housing/artifact/data_validation HTTP/1.1" 200 -
+[2023-05-06 00:44:05,231] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:44:05] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2023-05-06 00:44:06,635] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:44:06] "GET /artifact/housing/artifact/experiment HTTP/1.1" 200 -
+[2023-05-06 00:44:08,795] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:44:08] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2023-05-06 00:44:10,212] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:44:10] "GET /artifact/housing/artifact/model_evaluation HTTP/1.1" 200 -
+[2023-05-06 00:44:12,349] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:44:12] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2023-05-06 00:44:15,157] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:44:15] "[32mGET /artifact/housing HTTP/1.1[0m" 308 -
+[2023-05-06 00:44:15,167] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:44:15] "GET /artifact HTTP/1.1" 200 -
+[2023-05-06 00:49:26,050] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:49:26] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2023-05-06 00:49:26,043] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:49:26] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2023-05-06 00:49:28,777] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:49:28] "GET /artifact/housing/artifact/data_validation HTTP/1.1" 200 -
+[2023-05-06 00:49:31,103] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:49:31] "GET /artifact/housing/artifact/data_validation/2023-05-04-13-40-37 HTTP/1.1" 200 -
+[2023-05-06 00:49:33,350] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 00:49:33] "GET /artifact/housing/artifact/data_validation/2023-05-04-13-40-37/report.html HTTP/1.1" 200 -
+[2023-05-06 01:02:27,583] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 01:02:27] "GET /artifact HTTP/1.1" 200 -
+[2023-05-06 01:02:30,956] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 01:02:30] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2023-05-06 01:02:30,968] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 01:02:30] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2023-05-06 01:02:32,543] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 01:02:32] "GET /artifact/housing/artifact/model_evaluation HTTP/1.1" 200 -
+[2023-05-06 01:02:34,344] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 01:02:34] "GET /artifact/housing/artifact/model_evaluation/model_evaluation.yaml HTTP/1.1" 200 -
+[2023-05-06 01:02:34,411] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 01:02:34] "GET /artifact/housing/artifact/model_evaluation/model_evaluation.yaml HTTP/1.1" 200 -
+[2023-05-06 01:02:47,343] werkzeug - INFO - 127.0.0.1 - - [06/May/2023 01:02:47] "GET /artifact/housing/artifact HTTP/1.1" 200 -
